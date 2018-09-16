@@ -14,7 +14,7 @@ script:
 
 after_success:
   - cd ./dist
-  - echo "v0.chat\nwww.v0.chat" > CNAME
+  - echo -e "v0.chat\nwww.v0.chat" > CNAME
   - git init
   - git add .
   - git commit -m "Build $(date +%Y%m%d%H%M)"

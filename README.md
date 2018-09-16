@@ -1,5 +1,7 @@
 # 初瘦
 
+[![Build Status](https://travis-ci.org/assholev0/v0.chat.svg?branch=master)](https://travis-ci.org/assholev0/v0.chat)
+
 <https://v0.chat>
 
 微信公众号：
