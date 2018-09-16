@@ -1,0 +1,15 @@
+{
+  "name": "v0.chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src -d ./dist"
+  },
+  "repository": "git@github.com:assholev0/v0.chat.git",
+  "author": "willin <willin@willin.org>",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  }
+}
