@@ -1,0 +1,21 @@
+language: node_js
+node_js: stable
+git:
+  depth: false
+branches:
+  only:
+    - master
+
+install:
+  - yarn
+
+script:
+  - yarn build
+
+after_success:
+  - cd ./dist
+  - echo "v0.chat\nwww.v0.chat" > CNAME
+  - git init
+  - git add .
+  - git commit -m "Build $(date +%Y%m%d%H%M)"
+  - git push --force --quiet "https://${GH_TOKEN}@github.com:assholev0/v0.chat.git" master:gh-pages
