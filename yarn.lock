@@ -5852,13 +5852,13 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-theme-asshole@^0.0.0-alpha0:
+vuepress-theme-asshole@*:
   version "0.0.0-alpha0"
   resolved "https://registry.yarnpkg.com/vuepress-theme-asshole/-/vuepress-theme-asshole-0.0.0-alpha0.tgz#07eeb83f53afe458cee5e2bd3a95e6fbd694c93e"
 
-vuepress@^0.14.4:
+"vuepress@https://github.com/assholev0/vuepress":
   version "0.14.4"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.14.4.tgz#fea77daa840b11429564bdddde3653bbbec4affb"
+  resolved "https://github.com/assholev0/vuepress#e1ec8d5e4b8f05534eb76d837a6bdfa04a49a823"
   dependencies:
     "@babel/core" "7.0.0-beta.47"
     "@vue/babel-preset-app" "3.0.0-beta.11"

@@ -1,7 +1,7 @@
 node_modules/
 demo/
 dist/
-.vuepress/theme/
+src/.vuepress/theme/
 
 *.log
 *.log.*
