@@ -10,8 +10,7 @@
   "author": "willin <willin@willin.org>",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
-    "vuepress": "https://github.com/assholev0/vuepress",
-    "vuepress-theme-asshole": "latest"
+    "vuepress": "^0.14.4",
+    "vuepress-theme-asshole": "^0.0.0-alpha0-20180918"
   }
 }
-

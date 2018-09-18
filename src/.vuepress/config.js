@@ -11,11 +11,12 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  theme: 'asshole',
+  // theme: 'asshole',
   serviceWorker: true,
   evergreen: true,
   themeConfig: {
     avatar: '/icons/android-chrome-512x512.png',
+    qr: '/qr.png',
     player: {
       audio: [
         {
@@ -32,5 +33,17 @@ module.exports = {
         }
       ]
     }
-  }
+  },
+  chainWebpack: config => {
+    config.module
+      .rule('cursor')
+      .test(/\.(cur)(\?.*)?$/)
+      .use('url-loader')
+      .loader('url-loader')
+      .options({
+        limit: 10000,
+        name: `assets/[name].[hash:8].[ext]`
+      })
+  },
+  shouldPrefetch: () => false
 };

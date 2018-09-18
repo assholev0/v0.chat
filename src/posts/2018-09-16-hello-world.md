@@ -19,6 +19,8 @@ tags: [vue, vuepress, 前端]
 
 ![assholev0](https://user-images.githubusercontent.com/1890238/45592199-93773c80-b999-11e8-84ab-fa807929238c.png)
 
+<!-- more -->
+
 为了这个公众号起名，也算是绞尽了脑汁。后面再开篇新文详细介绍“初瘦”的来历，本文以技术为主。
 
 专门为此公众号注册了一个域名： <https://v0.chat>
@@ -87,8 +89,15 @@ tags: [vue, vuepress, 前端]
 - 不支持自定义链接格式（Permalink Slug）
 
 
+最近在 Vuepress 项目中提的 Bug 和 PR：
 
-当然，如果你依然对 Vuepress 感兴趣，甚至对这个主题感兴趣，限于平时时间有限，我会后续抽时间整理一下使用的说明，请收藏该项目： <https://github.com/assholev0/vuepress-theme-asshole>
+![](../attachments/20180918-vuepress.png)
+
+
+
+当然，如果你依然对 Vuepress 感兴趣，甚至对这个主题感兴趣，限于平时时间有限，我会后续抽时间整理一下使用的说明，请收藏该项目：
+
+<https://github.com/assholev0/vuepress-theme-asshole>
 
 
 
