@@ -38,10 +38,9 @@ module.exports = {
     config.module
       .rule('cursor')
       .test(/\.(cur)(\?.*)?$/)
-      .use('url-loader')
-      .loader('url-loader')
+      .use('file-loader')
+      .loader('file-loader')
       .options({
-        limit: 10000,
         name: `assets/[name].[hash:8].[ext]`
       })
   },
