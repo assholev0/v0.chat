@@ -1,6 +1,8 @@
 node_modules/
 demo/
 dist/
+.nuxt/
+nuxtpress/
 
 *.log
 *.log.*
