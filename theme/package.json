@@ -1,0 +1,16 @@
+{
+  "name": "nuxtpress-theme",
+  "version": "0.0.0-asshole-v0-token",
+  "description": "NuxtPress is a professional blog module for nuxt.js",
+  "module": "./src/index.js",
+  "jsnext:main": "./src/index.js",
+  "main": "./dist/index.js",
+  "keywords": [
+    "nuxtpress",
+    "nuxt",
+    "vuepress"
+  ],
+  "repository": "git@github.com:assholev0/nuxtpress.git",
+  "author": "willin <willin@willin.org>",
+  "license": "MIT"
+}
