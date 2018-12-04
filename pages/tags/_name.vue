@@ -24,8 +24,14 @@ export default {
     const info = await app.$np.info();
     const posts = await app.$np.tags(encodeURI(name));
     return {
+      name,
       info,
       ...posts
+    };
+  },
+  head() {
+    return {
+      title: `${this.name} - 标签 - 初瘦`
     };
   },
   layout: 'default'

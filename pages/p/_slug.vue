@@ -25,6 +25,11 @@ export default {
       post
     };
   },
+  head() {
+    return {
+      title: `${this.post.title} - 初瘦`
+    };
+  },
   layout: 'default'
 };
 </script>

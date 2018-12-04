@@ -24,6 +24,11 @@ export default {
       ...posts
     };
   },
+  head() {
+    return {
+      title: '归档 - 初瘦'
+    };
+  },
   layout: 'default'
 };
 </script>

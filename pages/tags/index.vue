@@ -25,6 +25,11 @@ export default {
       tags
     };
   },
+  head() {
+    return {
+      title: '标签 - 初瘦'
+    };
+  },
   layout: 'default'
 };
 </script>

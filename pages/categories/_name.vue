@@ -24,8 +24,14 @@ export default {
     const info = await app.$np.info();
     const posts = await app.$np.categories(encodeURI(name));
     return {
+      name,
       info,
       ...posts
+    };
+  },
+  head() {
+    return {
+      title: `${this.name} - 分类 - 初瘦`
     };
   },
   layout: 'default'

@@ -25,6 +25,11 @@ export default {
       categories
     };
   },
+  head() {
+    return {
+      title: '分类 - 初瘦'
+    };
+  },
   layout: 'default'
 };
 </script>
