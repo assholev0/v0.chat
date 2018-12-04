@@ -15,7 +15,7 @@
         </div>
 
         <Stat :info="info" />
-
+        <Aplayer />
       </div>
     </div>
   </aside>
@@ -24,10 +24,12 @@
 
 <script>
 import Stat from './stat';
+import Aplayer from './player';
 
 export default {
   name: 'Sidebar',
   components: {
+    Aplayer,
     Stat
   },
   props: {
