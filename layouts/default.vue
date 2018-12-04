@@ -181,6 +181,9 @@ a,a:link,a:visited
     width: 100%
     display: block
     text-align: center
+    .avatar
+      width: 100px
+      height: 100px
 
   #main
     padding: 0
