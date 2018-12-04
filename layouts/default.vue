@@ -183,5 +183,6 @@ a,a:link,a:visited
     text-align: center
 
   #main
+    padding: 0
     margin-left: 0
 </style>
