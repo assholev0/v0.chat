@@ -20,7 +20,7 @@ module.exports = {
     fallback: true
   },
   modules: [
-    'nuxtpress'
-    // { src: '~/nuxtpress' }
+    // 'nuxtpress'
+    { src: '~/nuxtpress' }
   ]
 };

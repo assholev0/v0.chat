@@ -1,28 +1,28 @@
 <template>
   <nav class="site-state">
     <div class="site-state-item site-state-posts">
-      <router-link to="/archives/">
+      <a href="/archives/">
         <span class="site-state-item-count">
           {{ info.posts }}
         </span>
         <span class="site-state-item-name">日志</span>
-      </router-link>
+      </a>
     </div>
     <div class="site-state-item site-state-categories">
-      <router-link to="/categories/">
+      <a href="/categories/">
         <span class="site-state-item-count">
           {{ info.categories }}
         </span>
         <span class="site-state-item-name">分类</span>
-      </router-link>
+      </a>
     </div>
     <div class="site-state-item site-state-tags">
-      <router-link to="/tags/">
+      <a href="/tags/">
         <span class="site-state-item-count">
           {{ info.tags }}
         </span>
         <span class="site-state-item-name">标签</span>
-      </router-link>
+      </a>
     </div>
   </nav>
 </template>
