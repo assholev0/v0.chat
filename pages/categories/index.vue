@@ -1,0 +1,30 @@
+<template>
+  <div>
+    <Sidebar :info="info" />
+    <main id="main">
+      <Categories :categories="categories" />
+    </main>
+  </div>
+</template>
+
+<script>
+import Sidebar from '~/components/sidebar/index';
+import Categories from '~/components/posts/categories';
+
+export default {
+  components: {
+    Sidebar,
+    Categories
+  },
+  async asyncData({ app }) {
+    const info = await app.$np.info();
+    const { categories } = await app.$np.categories();
+
+    return {
+      info,
+      categories
+    };
+  },
+  layout: 'default'
+};
+</script>

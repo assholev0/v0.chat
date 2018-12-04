@@ -15,7 +15,9 @@
   "author": "willin <willin@willin.org>",
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
-    "nuxt-edge": "^2.0.0-25622565.879ea84",
+    "@nuxtjs/axios": "latest",
+    "dayjs": "latest",
+    "nuxt": "latest",
     "nuxtpress": "latest"
   },
   "devDependencies": {
@@ -23,6 +25,9 @@
     "eslint": "^5.6.0",
     "eslint-config-dwing": "^1.2.1",
     "eslint-import-resolver-webpack": "^0.10.1",
-    "eslint-plugin-vue": "^5.0.0-beta.3"
+    "eslint-plugin-vue": "^5.0.0-beta.3",
+    "express": "^4.16.4",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
   }
 }
