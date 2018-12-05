@@ -4,6 +4,7 @@
     <main id="main">
       <Categories :categories="categories" />
       <Posts :posts="posts" />
+      <Copyright />
     </main>
   </div>
 </template>
@@ -12,9 +13,11 @@
 import Sidebar from '~/components/sidebar/index';
 import Categories from '~/components/posts/categories';
 import Posts from '~/components/posts/posts';
+import Copyright from '~/components/sidebar/copyright';
 
 export default {
   components: {
+    Copyright,
     Sidebar,
     Posts,
     Categories

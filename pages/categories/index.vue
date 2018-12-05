@@ -3,6 +3,7 @@
     <Sidebar :info="info" />
     <main id="main">
       <Categories :categories="categories" />
+      <Copyright />
     </main>
   </div>
 </template>
@@ -10,9 +11,11 @@
 <script>
 import Sidebar from '~/components/sidebar/index';
 import Categories from '~/components/posts/categories';
+import Copyright from '~/components/sidebar/copyright';
 
 export default {
   components: {
+    Copyright,
     Sidebar,
     Categories
   },

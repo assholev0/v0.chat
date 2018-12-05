@@ -50,7 +50,14 @@ a,a:link,a:visited
   order: 1
   min-height: 100vh
   margin-left: 38.2%
-  word-break: break-word;
+  word-break: break-word
+  display: flex
+  flex-direction: column
+
+  >article
+    flex: 1 0 auto
+  footer
+    flex: 0 0 auto
 
 #sidebar
   background: #444

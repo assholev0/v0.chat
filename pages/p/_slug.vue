@@ -3,6 +3,7 @@
     <Sidebar :info="info" />
     <main id="main">
       <PostItem :post="post" />
+      <Copyright />
     </main>
   </div>
 </template>
@@ -10,9 +11,11 @@
 <script>
 import Sidebar from '~/components/sidebar/index';
 import PostItem from '~/components/posts/post';
+import Copyright from '~/components/sidebar/copyright';
 
 export default {
   components: {
+    Copyright,
     Sidebar,
     PostItem
   },
