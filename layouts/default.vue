@@ -119,7 +119,7 @@ a,a:link,a:visited
         display block
         height 1px
         border 0
-        border-top 1px solid $borderColor
+        border-top 1px solid #dfe2e5
         margin 1.2rem 0
         padding 0
       strong
@@ -140,12 +140,12 @@ a,a:link,a:visited
         font-size 1.6rem
         padding-bottom 0.3em
         margin-bottom 0.5em
-        border-bottom 1px solid $borderColor
+        border-bottom 1px solid #dfe2e5
       h2
         font-size 1.3rem
         padding-bottom 0.3em
         margin-bottom 0.5em
-        border-bottom 1px solid $borderColor
+        border-bottom 1px solid #dfe2e5
         &:not(:first-child)
           margin-top 1.5rem
       h3

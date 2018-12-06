@@ -15,6 +15,10 @@
         </div>
 
         <Stat :info="info" />
+
+        <nav>
+          <small>本订阅号已写下 {{ formatNumber(info.wordcount) }} 字。</small>
+        </nav>
         <!-- <Aplayer /> -->
       </div>
     </div>
@@ -36,6 +40,14 @@ export default {
     info: {
       type: Object,
       required: true
+    }
+  },
+  methods: {
+    formatNumber(n) {
+      if (n < 10000) {
+        return n;
+      }
+      return `${Math.round((n * 100) / 10000) / 100}万`;
     }
   }
 };
