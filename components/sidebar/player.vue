@@ -29,7 +29,6 @@ export default {
   },
   mounted() {
     const that = this;
-
     import('aplayer').then(({ default: Aplayer }) => {
       const config = Object.assign({}, {
         container: that.$refs.aplayer,
@@ -42,9 +41,8 @@ export default {
         audio: []
       }, player);
       const ap = new Aplayer(config);
-      window.ap = ap;
       // Fix Autoplay
-      if (typeof document.addEventListener === 'function') {
+      if (!window.ap && typeof document.addEventListener === 'function') {
         const play = () => {
           if (ap.paused) {
             ap.play();
@@ -53,6 +51,7 @@ export default {
         };
         document.addEventListener('click', play);
       }
+      window.ap = ap;
     });
   }
 };

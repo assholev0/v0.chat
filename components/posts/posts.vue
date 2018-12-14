@@ -2,7 +2,7 @@
   <transition-group name="fade" mode="out-in" tag="article">
     <article v-for="post in posts" :key="post.slug" class="post">
       <h1>
-        <a :href="`/p/${post.slug}`">{{ post.title }}</a>
+        <nuxt-link :to="`/p/${post.slug}`">{{ post.title }}</nuxt-link>
       </h1>
       <div class="meta">
         <span>字数：{{ formatNumber(post.wordcount) }}字</span> |

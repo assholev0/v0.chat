@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p>
-      2018~{{ year }} &copy; Copyright
+      Copyright 2018~{{ year }} &copy;
       <a href="https://willin.wang" target="_blank">Willin Wang</a>
     </p>
     <p>

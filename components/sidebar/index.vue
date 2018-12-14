@@ -3,13 +3,13 @@
     <div class="table">
       <div class="table-cell">
         <div class="logo">
-          <a href="/">
+          <nuxt-link to="/">
             <img src="/avatar.png" class="avatar">
-          </a>
+          </nuxt-link>
           <h1 v-show="false">
-            <a href="/">
+            <nuxt-link to="/">
               {{ info.title }}
-            </a>
+            </nuxt-link>
           </h1>
           <h2>{{ info.description }}</h2>
         </div>

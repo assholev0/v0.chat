@@ -1,28 +1,28 @@
 <template>
   <nav class="site-state">
     <div class="site-state-item site-state-posts">
-      <a href="/archives/">
+      <nuxt-link to="/archives/">
         <span class="site-state-item-count">
           {{ info.posts }}
         </span>
         <span class="site-state-item-name">日志</span>
-      </a>
+      </nuxt-link>
     </div>
     <div class="site-state-item site-state-categories">
-      <a href="/categories/">
+      <nuxt-link to="/categories/">
         <span class="site-state-item-count">
           {{ info.categories }}
         </span>
         <span class="site-state-item-name">分类</span>
-      </a>
+      </nuxt-link>
     </div>
     <div class="site-state-item site-state-tags">
-      <a href="/tags/">
+      <nuxt-link to="/tags/">
         <span class="site-state-item-count">
           {{ info.tags }}
         </span>
         <span class="site-state-item-name">标签</span>
-      </a>
+      </nuxt-link>
     </div>
   </nav>
 </template>
