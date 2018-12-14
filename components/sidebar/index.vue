@@ -19,6 +19,7 @@
         <nav>
           <small>本订阅号已写下 {{ formatNumber(info.wordcount) }} 字。</small>
         </nav>
+        <Adsense />
         <!-- <Aplayer /> -->
       </div>
     </div>
@@ -28,12 +29,14 @@
 
 <script>
 import Stat from './stat';
+import Adsense from './adsense';
 // import Aplayer from './player';
 
 export default {
   name: 'Sidebar',
   components: {
     // Aplayer,
+    Adsense,
     Stat
   },
   props: {
