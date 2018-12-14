@@ -19,8 +19,10 @@
         <nav>
           <small>本订阅号已写下 {{ formatNumber(info.wordcount) }} 字。</small>
         </nav>
-        <Adsense />
-        <!-- <Aplayer /> -->
+        <no-ssr>
+          <Adsense />
+          <!-- <Aplayer /> -->
+        </no-ssr>
       </div>
     </div>
   </aside>

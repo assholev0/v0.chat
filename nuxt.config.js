@@ -11,7 +11,13 @@ module.exports = {
     ]
   },
   build: {
-    extractCSS: true
+    extractCSS: true,
+    extend(config, { isDev }) {
+      if (isDev) {
+        // eslint-disable-next-line no-param-reassign
+        config.devtool = '#source-map';
+      }
+    }
   },
   loading: {
     color: '#1976d2'
@@ -19,6 +25,9 @@ module.exports = {
   generate: {
     fallback: true
   },
+  plugins: [
+    { src: '~/plugins/adsense.js', ssr: false }
+  ],
   modules: [
     'nuxtpress'
     // { src: '~/nuxtpress' }
