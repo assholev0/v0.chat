@@ -8,7 +8,7 @@ module.exports = {
   root: true,
   extends: [
     'plugin:vue/recommended',
-    'dwing'
+    'willin'
   ],
   parserOptions: {
     parser: 'babel-eslint',
