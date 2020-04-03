@@ -15,10 +15,10 @@
   "author": "willin <willin@willin.org>",
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
-    "@nuxtjs/axios": "latest",
+    "@nuxtjs/axios": "^5.9.7",
     "aplayer": "latest",
-    "dayjs": "latest",
-    "nuxt": "latest",
+    "dayjs": "^1.8.23",
+    "nuxt": "^2.12.2",
     "nuxtpress": "latest"
   },
   "devDependencies": {
