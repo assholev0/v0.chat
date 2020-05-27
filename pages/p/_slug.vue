@@ -2,16 +2,16 @@
   <div>
     <Sidebar :info="info" />
     <main id="main">
-      <PostItem :post="post" />
+      <PostItem :post.sync="post" />
       <Copyright />
     </main>
   </div>
 </template>
 
 <script>
-import Sidebar from '~/components/sidebar/index';
-import PostItem from '~/components/posts/post';
-import Copyright from '~/components/sidebar/copyright';
+import Sidebar from '~/components/sidebar/index.vue';
+import PostItem from '~/components/posts/post.vue';
+import Copyright from '~/components/sidebar/copyright.vue';
 
 export default {
   components: {
@@ -28,6 +28,7 @@ export default {
       post
     };
   },
+
   head() {
     return {
       title: `${this.post.title} - 初瘦`

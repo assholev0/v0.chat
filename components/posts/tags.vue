@@ -2,7 +2,9 @@
   <article>
     <ul>
       <li v-for="tag in tags" :key="tag.name" class="tag">
-        <nuxt-link :to="`/tags/${tag.name}`">{{ tag.name }}</nuxt-link> ({{ tag.count }})
+        <nuxt-link :to="`/tags/${tag.name}`">
+          {{ tag.name }}
+        </nuxt-link> ({{ tag.count }})
       </li>
     </ul>
   </article>

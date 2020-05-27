@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import Sidebar from '~/components/sidebar/index';
-import Tags from '~/components/posts/tags';
-import Posts from '~/components/posts/posts';
-import Copyright from '~/components/sidebar/copyright';
+import Sidebar from '~/components/sidebar/index.vue';
+import Tags from '~/components/posts/tags.vue';
+import Posts from '~/components/posts/posts.vue';
+import Copyright from '~/components/sidebar/copyright.vue';
 
 export default {
   components: {

@@ -30,16 +30,15 @@ export default {
   mounted() {
     const that = this;
     import('aplayer').then(({ default: Aplayer }) => {
-      const config = Object.assign({}, {
-        container: that.$refs.aplayer,
+      const config = { container: that.$refs.aplayer,
         fixed: false,
         listFolded: false,
         listMaxHeight: '270px',
         autoplay: true,
         volume: 1,
         order: 'random',
-        audio: []
-      }, player);
+        audio: [],
+        ...player };
       const ap = new Aplayer(config);
       // Fix Autoplay
       if (!window.ap && typeof document.addEventListener === 'function') {

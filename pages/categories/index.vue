@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Sidebar from '~/components/sidebar/index';
-import Categories from '~/components/posts/categories';
-import Copyright from '~/components/sidebar/copyright';
+import Sidebar from '~/components/sidebar/index.vue';
+import Categories from '~/components/posts/categories.vue';
+import Copyright from '~/components/sidebar/copyright.vue';
 
 export default {
   components: {

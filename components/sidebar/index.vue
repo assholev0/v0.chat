@@ -30,8 +30,8 @@
 
 
 <script>
-import Stat from './stat';
-import Adsense from './adsense';
+import Stat from './stat.vue';
+import Adsense from './adsense.vue';
 // import Aplayer from './player';
 
 export default {
