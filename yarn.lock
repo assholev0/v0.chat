@@ -5483,12 +5483,13 @@ nuxt@^2.12.2:
     "@nuxt/opencollective" "^0.3.0"
     "@nuxt/webpack" "2.12.2"
 
-nuxtpress@latest:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/nuxtpress/-/nuxtpress-0.2.0.tgz#f5eaff6cb7aec265ce6dd9229aeb881c46edfa04"
-  integrity sha512-JWMvJVwWFio3y/aBXwg6OUtbUOSiXjbJ3eHajg3mAmjB4H7TPwi0cZVdNkfrYVqffeuaXxgRfivXWdtXJrL6uA==
+nuxtpress@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/nuxtpress/-/nuxtpress-0.3.0.tgz#20f443d61404c708c94f4d2b89d7eed8fb05d255"
+  integrity sha512-quDdgAiCVd2d9dUhQVhQp0CykXSExip3d8Orzk87+kmOhHp0HSRWBjkAmXql8jep7Kf7SFBDxal1oIEgoGBkyw==
   dependencies:
     diacritics "^1.3.0"
+    eslint-config-willin "^1.0.3"
     express "^4.16.4"
     globby "^8.0.1"
     gray-matter "^4.0.1"

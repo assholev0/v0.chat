@@ -20,7 +20,7 @@
     "aplayer": "latest",
     "dayjs": "^1.8.23",
     "nuxt": "^2.12.2",
-    "nuxtpress": "latest"
+    "nuxtpress": "^0.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
