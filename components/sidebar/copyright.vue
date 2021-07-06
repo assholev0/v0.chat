@@ -9,6 +9,11 @@
       <a href="https://github.com/willin" target="_blank">willin</a> |
       <a href="https://github.com/assholev0" target="_blank">assholev0</a>
     </p>
+    <p>
+      <small><a href="http://www.beian.miit.gov.cn" target="_blank">
+        苏ICP备19022432号
+      </a></small>
+    </p>
   </footer>
 </template>
 
